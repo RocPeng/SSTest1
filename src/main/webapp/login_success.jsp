@@ -17,7 +17,8 @@
 	<a href="adduser.jsp">添加用户</a>&nbsp;&nbsp;
 	<a href="login_success.jsp">返回首页</a>&nbsp;&nbsp;
 	<a href="<%=request.getContextPath()%>/unlogin.jsp">退出登录</a>&nbsp;&nbsp;
-	<a href="<%=request.getContextPath()%>/log.jsp">日志显示</a></h1>
+	<a href="<%=request.getContextPath()%>/log.jsp">日志显示</a>&nbsp;&nbsp;
+	<a href="<%=request.getContextPath()%>/flux.jsp">流量相关</a></h1>
 	<hr>
 	<%
 		request.setCharacterEncoding("UTF-8");

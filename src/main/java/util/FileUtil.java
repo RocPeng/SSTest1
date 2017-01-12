@@ -13,6 +13,8 @@ public class FileUtil {
 	public static String vpsServerPath="/etc/shadowsocks/config.json";
 	public static String macShadowSockLog="/Users/roc_peng/Downloads/shadowsocks.log";
 	public static String shadowSockLog="/var/log/shadowsocks.log";
+	//流量相关
+	public static String fluxPath="/data/project/SS_bandwith/item.json";
 	public static String currentPath=vpsServerPath;
 	public static String currentLogPath=shadowSockLog;
 	
